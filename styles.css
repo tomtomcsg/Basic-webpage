@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 10px
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 90px 10px 90px;
+}
+
+.header-link{
+    margin-left: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.main-top{
+    display: flex;
+    flex-direction: column;
+}
+.top-image{
+    
+}
