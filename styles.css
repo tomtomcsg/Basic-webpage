@@ -123,16 +123,17 @@ ul{
 .sign-up{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
+    align-content: center;
     padding: 90px;
 }
-.sign-up div{
+.blue-box{
     display: flex;
     background-color: #3882f6;
     color: white;
     padding: 60px 400px;
     border-radius: 10px;
-    max-width: 200px;
+    max-width: 400px;
     gap: 20px;
 }
 .footer{
@@ -148,4 +149,16 @@ ul{
 .click{
     font-weight: bold;
     font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-button{
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
