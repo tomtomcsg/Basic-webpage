@@ -34,10 +34,27 @@ ul{
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .main-top{
     display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 50px;
+}
+
+.main-text{
     flex-direction: column;
+    max-width: 500px;
+    gap: 30px;
 }
+
 .top-image{
-    
+    max-width: 450px;
 }
+
+.big-text-main{
+    font-size: 48px;
+    
