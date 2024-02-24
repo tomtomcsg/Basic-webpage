@@ -53,6 +53,7 @@ ul{
 
 .top-image{
     max-width: 450px;
+    border-radius: 5px;
 }
 
 .big-text-main{
@@ -69,4 +70,82 @@ ul{
     cursor: pointer;
     border-radius: 5px;
 }
-    
+.middle-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    gap: 40px
+}
+
+.mid-images{
+    max-width: 150px;
+    border-radius: 5px;
+    border: 2px solid #3882f6;
+
+}
+.frames{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.img-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.lower-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    background-color: #E5E7EB;
+}
+.low-mid{
+    max-width: 550px;
+}
+
+.quote{
+    font-weight: 60;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author{
+    font-weight: bold;
+    text-align: end;
+}
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 90px;
+}
+.sign-up div{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    padding: 60px 400px;
+    border-radius: 10px;
+    max-width: 200px;
+    gap: 20px;
+}
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: auto;
+    padding: 50px;
+    font-weight: 100;
+}
+.click{
+    font-weight: bold;
+    font-size: 24px;
+}
